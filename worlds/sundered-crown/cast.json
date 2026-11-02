@@ -1,0 +1,33 @@
+{
+  "factions": [
+    { "id": "the_regency", "name": "The Regency", "description": "The regent's council, ruling in the dead king's name until the Council of Claims." },
+    { "id": "house_marrow", "name": "House Marrow", "description": "Old river-country lords. Cautious, wealthy, slow to forgive." },
+    { "id": "house_calder", "name": "House Calder", "description": "Martial, proud hill lords with the strongest claim by blood and an army at Ashby Ford." },
+    { "id": "house_vane", "name": "House Vane", "description": "A minor house whose holdfast guards the high road to the capital." },
+    { "id": "house_lisle", "name": "House Lisle", "description": "Merchant-princes of the southern ports who hold half the realm's debts." },
+    { "id": "house_ostry", "name": "House Ostry", "description": "Wardens of the northern marches, distant and distrusted." },
+    { "id": "the_chapter", "name": "The Grey Chapter", "description": "The realm's faith, keepers of the Book of Crowns; no ruler is lawful without their anointing." }
+  ],
+  "characters": [
+    { "id": "regent_osric", "name": "Regent Osric", "faction": "the_regency", "protected": true, "unprotected_by_flag": "chapter3_council_convened", "description": "Osric Dunmore, the late king's chancellor, of no great house. Soft-spoken, patient, ruthless. Holds the realm by ledgers, favours and fear. Cannot die before the Council of Claims." },
+    { "id": "master_quill", "name": "Master Quill", "faction": "the_regency", "protected": false, "description": "Keeper of the royal archive. Old, fussy, frightened, and keeping more secrets than he admits." },
+    { "id": "commander_ysolde_brand", "name": "Commander Ysolde Brand", "faction": "the_regency", "protected": false, "description": "Commander of the Lantern Guard. A scarred, honest soldier who obeys the Regency and is starting to dislike what it asks." },
+    { "id": "queen_aveline", "name": "Queen Aveline", "faction": "the_regency", "protected": false, "description": "The dowager queen, born a Marrow. Has worn mourning grey since her son died. Gentle in manner, lonely, sharper than people assume." },
+    { "id": "lady_maud_marrow", "name": "Lady Maud Marrow", "faction": "house_marrow", "protected": false, "description": "Head of House Marrow, in her seventies. Collects debts and never forgets one. Warm to your face." },
+    { "id": "aurel_marrow", "name": "Aurel Marrow", "faction": "house_marrow", "protected": false, "description": "Lady Maud's grandson and heir. Bookish, courteous, wants peace, and is beginning to fear his grandmother." },
+    { "id": "lord_edric_calder", "name": "Lord Edric Calder", "faction": "house_calder", "protected": false, "description": "Claimant to the throne, the dead king's nephew. Brave, proud, easily provoked, and more honourable than his mother." },
+    { "id": "lady_hesper_calder", "name": "Lady Hesper Calder", "faction": "house_calder", "protected": false, "description": "Edric's mother, born a princess, married to Calder as the price of peace. Patient, brilliant, and willing to do anything for her son." },
+    { "id": "garrow_flint", "name": "Garrow Flint", "faction": "house_calder", "protected": false, "description": "Calder's master-at-arms. Blunt, loyal to Lady Hesper to the bone, does her dirty work." },
+    { "id": "lord_harlan_vane", "name": "Lord Harlan Vane", "faction": "house_vane", "protected": false, "description": "Head of House Vane. Once served in the Lantern Guard and was close to the late king. Old knee wound, stubborn, keeps a secret he has never told his children." },
+    { "id": "brother_tomas", "name": "Tomas Vane", "faction": "house_vane", "protected": false, "description": "Lord Harlan's younger son, seventeen. Quick-tongued and restless, hungry to matter, easily flattered." },
+    { "id": "wenna_holt", "name": "Wenna Holt", "faction": "house_vane", "protected": false, "description": "Castellan of Vane Holdfast. Dry, practical, has run the household for thirty years and knows where everything is buried." },
+    { "id": "lord_orlo_lisle", "name": "Lord Orlo Lisle", "faction": "house_lisle", "protected": false, "description": "Head of House Lisle. Charming, heavy, seasick on every voyage. Treats politics as a ledger and loyalty as a price." },
+    { "id": "jessa_coyle", "name": "Jessa Coyle", "faction": "house_lisle", "protected": false, "description": "Runs the Lisle counting-house in Tallow Market. Knows who owes whom. Friendly, precise, and never lends without collateral." },
+    { "id": "warden_hakon_ostry", "name": "Warden Hakon Ostry", "faction": "house_ostry", "protected": false, "description": "Warden of the Marches. Grey, weathered, few words. Distrusts the south and keeps a secret for a dead king." },
+    { "id": "mother_idony", "name": "Mother Idony", "faction": "the_chapter", "protected": false, "description": "Head of the Grey Chapter at Stillwater. Calm, unbribable, and determined that law, not armies, will choose the next ruler." },
+    { "id": "brother_hollis", "name": "Brother Hollis", "faction": "the_chapter", "protected": false, "description": "Keeper of the Grey Chapel in the capital. Ambitious, well connected, and quietly selling Chapter influence." },
+    { "id": "captain_dagna_rusk", "name": "Captain Dagna Rusk", "protected": false, "description": "Captain of the Tallow Company, a sellsword company the Regency has stopped paying. Loud, shrewd, loyal to her people before any lord." },
+    { "id": "master_lucan_fell", "name": "Master Lucan Fell", "protected": false, "description": "The royal physician, missing since the night the king died. Precise, proud, and terrified." },
+    { "id": "prince_edmer", "name": "Ash", "protected": true, "description": "A burned, bitter fen-guide in the north. Secretly Prince Edmer, the king's son, believed dead for five years. Call him Ash unless the player has learned who he is. Cannot die." }
+  ]
+}

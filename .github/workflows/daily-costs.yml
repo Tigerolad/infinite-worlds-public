@@ -1,0 +1,31 @@
+# Daily cost check (architecture doc §10 Alerts). Runs scripts/costs.ts for
+# yesterday (UTC). The job fails when there are alerts, and GitHub emails the
+# repo owner about failed scheduled runs. Needs two repository secrets:
+# NEXT_PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY.
+name: Daily costs
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/costs.ts
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DAILY_SPEND_LIMIT_USD: ${{ vars.DAILY_SPEND_LIMIT_USD }}
+          API_BUDGET_USD: ${{ vars.API_BUDGET_USD }}

@@ -1,0 +1,25 @@
+{
+  "locations": [
+    { "id": "capital.gate", "name": "The Lantern Gate", "region": "capital", "adjacent": ["capital.market", "high_road.waystation", "western_hills.camp"] },
+    { "id": "capital.market", "name": "Tallow Market", "region": "capital", "adjacent": ["capital.gate", "capital.ashen_hall", "capital.dungeons", "capital.docks", "capital.wicks", "capital.grey_chapel"] },
+    { "id": "capital.ashen_hall", "name": "The Ashen Hall", "region": "capital", "adjacent": ["capital.market", "capital.council_chamber", "capital.dungeons"] },
+    { "id": "capital.council_chamber", "name": "The Council Chamber", "region": "capital", "adjacent": ["capital.ashen_hall"] },
+    { "id": "capital.dungeons", "name": "The Undercroft", "region": "capital", "adjacent": ["capital.ashen_hall", "capital.market"] },
+    { "id": "capital.docks", "name": "Sallow Quay", "region": "capital", "adjacent": ["capital.market", "capital.wicks", "river_country.sallowford"] },
+    { "id": "capital.wicks", "name": "The Wicks", "region": "capital", "adjacent": ["capital.market", "capital.docks"] },
+    { "id": "capital.grey_chapel", "name": "The Grey Chapel", "region": "capital", "adjacent": ["capital.market"] },
+    { "id": "high_road.waystation", "name": "Greywater Waystation", "region": "high_road", "adjacent": ["capital.gate", "vane.holdfast", "chapter.stillwater"] },
+    { "id": "chapter.stillwater", "name": "The Chapterhouse of Stillwater", "region": "stillwater", "adjacent": ["high_road.waystation"] },
+    { "id": "vane.holdfast", "name": "Vane Holdfast", "region": "vane_lands", "adjacent": ["high_road.waystation", "northern_marches.watchtower", "vane.village"] },
+    { "id": "vane.village", "name": "Vanesford", "region": "vane_lands", "adjacent": ["vane.holdfast"] },
+    { "id": "river_country.sallowford", "name": "Sallowford", "region": "river_country", "adjacent": ["capital.docks", "southern_ports.saltreach"] },
+    { "id": "southern_ports.saltreach", "name": "Saltreach Harbour", "region": "southern_ports", "adjacent": ["river_country.sallowford", "southern_ports.gilded_house"] },
+    { "id": "southern_ports.gilded_house", "name": "The Gilded House", "region": "southern_ports", "adjacent": ["southern_ports.saltreach"] },
+    { "id": "western_hills.camp", "name": "The Calder Camp at Ashby Ford", "region": "western_hills", "adjacent": ["capital.gate", "western_hills.highcrag"] },
+    { "id": "western_hills.highcrag", "name": "Highcrag", "region": "western_hills", "adjacent": ["western_hills.camp"] },
+    { "id": "northern_marches.watchtower", "name": "The Last Watchtower", "region": "northern_marches", "adjacent": ["vane.holdfast", "northern_marches.coldharrow"] },
+    { "id": "northern_marches.coldharrow", "name": "Coldharrow", "region": "northern_marches", "adjacent": ["northern_marches.watchtower", "northern_marches.fen_edge"] },
+    { "id": "northern_marches.fen_edge", "name": "The Drownings", "region": "northern_marches", "adjacent": ["northern_marches.coldharrow", "northern_marches.risen_town"] },
+    { "id": "northern_marches.risen_town", "name": "The Risen Town", "region": "northern_marches", "adjacent": ["northern_marches.fen_edge"] }
+  ]
+}

@@ -1,0 +1,96 @@
+# IP guardrail list (architecture doc §8). One term per line, case-insensitive,
+# matched on whole words. Lines starting with # are ignored.
+# Only distinctive names and phrases: common words ("the Wall", "Shire")
+# would cause false retries. Extend from beta audits.
+
+# A Song of Ice and Fire / Game of Thrones
+Westeros
+Essos
+Winterfell
+King's Landing
+Kings Landing
+Red Keep
+Iron Throne
+Kingsroad
+Kingsguard
+Night's Watch
+White Walker
+White Walkers
+Warden of the North
+Hand of the King
+Small Council
+Master of Whisperers
+Maester
+Ser
+House Stark
+Ned Stark
+Robb Stark
+Arya Stark
+Sansa Stark
+Jon Snow
+Lannister
+Targaryen
+Baratheon
+Greyjoy
+Tyrell
+Martell
+Cersei
+Tyrion
+Daenerys
+Joffrey
+Stannis
+Littlefinger
+Dothraki
+Khaleesi
+Valyrian
+Casterly Rock
+Highgarden
+Riverrun
+Dragonstone
+Braavos
+Dorne
+Red Wedding
+Winter is coming
+A Lannister always pays his debts
+
+# The Lord of the Rings
+Middle-earth
+Gondor
+Mordor
+Sauron
+Rivendell
+Aragorn
+Gandalf
+Frodo
+
+# The Witcher
+Witcher
+Geralt
+Nilfgaard
+Temeria
+
+# Dragon Age
+Ferelden
+Thedas
+Orlais
+Grey Warden
+Grey Wardens
+Chantry
+
+# The Elder Scrolls
+Tamriel
+Skyrim
+Dovahkiin
+
+# The Wheel of Time
+Aes Sedai
+Rand al'Thor
+
+# The First Law
+Glokta
+Logen Ninefingers
+
+# The Stormlight Archive / Mistborn
+Roshar
+Kaladin
+Kelsier

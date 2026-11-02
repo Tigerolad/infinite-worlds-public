@@ -1,0 +1,108 @@
+{
+  "origins": [
+    {
+      "id": "minor-lord",
+      "title": "The Minor Lord",
+      "pitch": "The Regent has summoned your house to the capital. Your father suspects a trap, and won't say why.",
+      "starting_state": {
+        "day": 1,
+        "location": "vane.holdfast",
+        "player": { "name": "", "origin": "minor-lord", "health": "healthy", "gold": 80, "reputation": 10, "inventory": ["signet_ring", "summons_from_regent"] },
+        "factions": {
+          "the_regency": { "loyalty": 0, "status": "neutral" },
+          "house_marrow": { "loyalty": 0, "status": "neutral" },
+          "house_calder": { "loyalty": 0, "status": "neutral" },
+          "house_vane": { "loyalty": 60, "status": "allied" },
+          "house_lisle": { "loyalty": 0, "status": "neutral" },
+          "house_ostry": { "loyalty": 0, "status": "neutral" },
+          "the_chapter": { "loyalty": 0, "status": "neutral" }
+        },
+        "characters": {
+          "regent_osric": { "alive": true, "disposition": 0, "known_secrets": [] },
+          "lord_harlan_vane": { "alive": true, "disposition": 40, "known_secrets": [] },
+          "brother_tomas": { "alive": true, "disposition": 40, "known_secrets": [] },
+          "wenna_holt": { "alive": true, "disposition": 30, "known_secrets": [] }
+        },
+        "flags": {},
+        "quest_log": ["Answer the Regent's summons"]
+      }
+    },
+    {
+      "id": "sellsword",
+      "title": "The Sellsword",
+      "pitch": "The Regency owes your company three months' pay and has stopped answering. In Tallow Market, suddenly everyone wants to hire a sword.",
+      "starting_state": {
+        "day": 1,
+        "location": "capital.market",
+        "player": { "name": "", "origin": "sellsword", "health": "healthy", "gold": 25, "reputation": 0, "inventory": ["notched_sword", "company_token", "unpaid_contract"] },
+        "factions": {
+          "the_regency": { "loyalty": -15, "status": "neutral" },
+          "house_marrow": { "loyalty": 0, "status": "neutral" },
+          "house_calder": { "loyalty": 0, "status": "neutral" },
+          "house_vane": { "loyalty": 0, "status": "neutral" },
+          "house_lisle": { "loyalty": 10, "status": "neutral" },
+          "house_ostry": { "loyalty": 0, "status": "neutral" },
+          "the_chapter": { "loyalty": 0, "status": "neutral" }
+        },
+        "characters": {
+          "captain_dagna_rusk": { "alive": true, "disposition": 40, "known_secrets": [] },
+          "jessa_coyle": { "alive": true, "disposition": 0, "known_secrets": [] },
+          "commander_ysolde_brand": { "alive": true, "disposition": 10, "known_secrets": [] }
+        },
+        "flags": {},
+        "quest_log": ["Collect the Tallow Company's unpaid wages"]
+      }
+    },
+    {
+      "id": "royal-ward",
+      "title": "The Royal Ward",
+      "pitch": "You were sent to court at eight as a hostage for House Ostry. The king who held you is dead, and a letter from your father has just arrived.",
+      "starting_state": {
+        "day": 1,
+        "location": "capital.ashen_hall",
+        "player": { "name": "", "origin": "royal-ward", "health": "healthy", "gold": 30, "reputation": 5, "inventory": ["ward_ribbon", "letter_from_home"] },
+        "factions": {
+          "the_regency": { "loyalty": 10, "status": "neutral" },
+          "house_marrow": { "loyalty": 0, "status": "neutral" },
+          "house_calder": { "loyalty": 0, "status": "neutral" },
+          "house_vane": { "loyalty": 0, "status": "neutral" },
+          "house_lisle": { "loyalty": 0, "status": "neutral" },
+          "house_ostry": { "loyalty": 20, "status": "friendly" },
+          "the_chapter": { "loyalty": 0, "status": "neutral" }
+        },
+        "characters": {
+          "queen_aveline": { "alive": true, "disposition": 40, "known_secrets": [] },
+          "master_quill": { "alive": true, "disposition": 30, "known_secrets": [] },
+          "regent_osric": { "alive": true, "disposition": 0, "known_secrets": [] },
+          "warden_hakon_ostry": { "alive": true, "disposition": 20, "known_secrets": [] }
+        },
+        "flags": {},
+        "quest_log": ["Find out whether you are still a hostage"]
+      }
+    },
+    {
+      "id": "witness",
+      "title": "The Witness",
+      "pitch": "You were in the room when King Aldwin died, and you saw what the fever couldn't explain. That night your master vanished. Now someone is asking for you by name.",
+      "starting_state": {
+        "day": 1,
+        "location": "capital.wicks",
+        "player": { "name": "", "origin": "witness", "health": "healthy", "gold": 12, "reputation": 0, "inventory": ["physicians_satchel", "master_fells_notebook"] },
+        "factions": {
+          "the_regency": { "loyalty": -10, "status": "neutral" },
+          "house_marrow": { "loyalty": 0, "status": "neutral" },
+          "house_calder": { "loyalty": 0, "status": "neutral" },
+          "house_vane": { "loyalty": 0, "status": "neutral" },
+          "house_lisle": { "loyalty": 0, "status": "neutral" },
+          "house_ostry": { "loyalty": 0, "status": "neutral" },
+          "the_chapter": { "loyalty": 0, "status": "neutral" }
+        },
+        "characters": {
+          "master_lucan_fell": { "alive": true, "disposition": 30, "known_secrets": [] }
+        },
+        "flags": {},
+        "quest_log": ["Find out what happened to Master Fell"]
+      }
+    }
+  ]
+}

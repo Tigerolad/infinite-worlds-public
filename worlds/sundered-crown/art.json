@@ -1,0 +1,284 @@
+{
+  "style": "painterly dark-fantasy visual novel art, muted earth palette of soot black, tallow gold, slate grey and oxblood, warm lamplight against cold blue shadow, visible brush texture, late-medieval northern European setting, grounded and realistic",
+  "default_background": "bg.default",
+  "midjourney": {
+    "background": "--ar 16:9",
+    "cg": "--ar 16:9",
+    "sprite": "--ar 2:3",
+    "sprite_framing": "waist-up character sprite, standing, body turned three-quarters toward the viewer, centered, plain flat light grey background, even soft lighting, no props held unless described, no text"
+  },
+  "expressions": {
+    "neutral": "calm neutral expression",
+    "angry": "angry expression, furrowed brow, tense jaw",
+    "afraid": "afraid expression, wide eyes, drawn back",
+    "smiling": "slight warm smile"
+  },
+  "backgrounds": [
+    {
+      "tag": "bg.default",
+      "file": "bg/bg-default.webp",
+      "prompt": "an empty dim stone chamber with a single oil lamp on a table, deep shadows"
+    },
+    {
+      "tag": "capital.gate",
+      "file": "bg/capital-gate.webp",
+      "prompt": "an empty great stone city gate at dusk hung with dozens of iron lanterns, muddy road, closed carts left by the wall"
+    },
+    {
+      "tag": "capital.market",
+      "file": "bg/capital-market.webp",
+      "prompt": "an empty market square at evening, candle stalls stacked with tallow candles, lamps on posts, steam from rendering vats"
+    },
+    {
+      "tag": "capital.ashen_hall",
+      "file": "bg/capital-ashen-hall.webp",
+      "prompt": "an empty palace hall of black stone with soot-darkened timber beams, long banners, cold throne dais lit by braziers"
+    },
+    {
+      "tag": "capital.council_chamber",
+      "file": "bg/capital-council-chamber.webp",
+      "prompt": "an empty round council chamber beneath a glass dome, ring of carved chairs around a circular table, pale light from above"
+    },
+    {
+      "tag": "capital.dungeons",
+      "file": "bg/capital-dungeons.webp",
+      "prompt": "empty vaulted dungeon cellars, dripping stone, iron cell doors, one lantern on a hook"
+    },
+    {
+      "tag": "capital.docks",
+      "file": "bg/capital-docks.webp",
+      "prompt": "empty river docks on a grey morning, moored flat barges, stacked crates and eel baskets, warehouses leaning over the water"
+    },
+    {
+      "tag": "capital.wicks",
+      "file": "bg/capital-wicks.webp",
+      "prompt": "an empty tavern taproom in a poor quarter, low beams, rough tables, guttering lamps, a sign of a drowned lamb by the door"
+    },
+    {
+      "tag": "capital.grey_chapel",
+      "file": "bg/capital-grey-chapel.webp",
+      "prompt": "an empty plain grey stone chapel, rough benches, one unmarked grey book on a lectern, light through a high window"
+    },
+    {
+      "tag": "high_road.waystation",
+      "file": "bg/high-road-waystation.webp",
+      "prompt": "an empty roadside waystation inn yard beside a wide grey lake, toll barrier across the road, mist on the water"
+    },
+    {
+      "tag": "chapter.stillwater",
+      "file": "bg/chapter-stillwater.webp",
+      "prompt": "an austere grey stone monastery cloister on a lake island, still water beyond the arches, dawn light"
+    },
+    {
+      "tag": "vane.holdfast",
+      "file": "bg/vane-holdfast.webp",
+      "prompt": "the empty great hall of a small old stone keep, blue banners with a silver weathervane, hearth fire, low winter light"
+    },
+    {
+      "tag": "vane.village",
+      "file": "bg/vane-village.webp",
+      "prompt": "an empty village lane below a keep, thatched cottages, a ford across a stream, chimney smoke"
+    },
+    {
+      "tag": "river_country.sallowford",
+      "file": "bg/river-country-sallowford.webp",
+      "prompt": "an empty fortified bridge over a broad slow river, toll towers, green and white heron banners, barges below"
+    },
+    {
+      "tag": "southern_ports.saltreach",
+      "file": "bg/southern-ports-saltreach.webp",
+      "prompt": "an empty harbour quay in hazy southern light, tall-masted merchant ships, salt warehouses, gold ship banners"
+    },
+    {
+      "tag": "southern_ports.gilded_house",
+      "file": "bg/southern-ports-gilded-house.webp",
+      "prompt": "an empty opulent merchant counting room with gilded shutters open to the sea, ledgers and coin chests"
+    },
+    {
+      "tag": "western_hills.camp",
+      "file": "bg/western-hills-camp.webp",
+      "prompt": "the empty interior of a large command tent in an army camp, map table, black ram on red banner, lanterns"
+    },
+    {
+      "tag": "western_hills.highcrag",
+      "file": "bg/western-hills-highcrag.webp",
+      "prompt": "an empty stone fortress courtyard on a crag in bare windswept hills, red banners"
+    },
+    {
+      "tag": "northern_marches.watchtower",
+      "file": "bg/northern-marches-watchtower.webp",
+      "prompt": "the empty top room of a lonely stone watchtower, arrow slits, a brazier, snowy pine forest visible outside"
+    },
+    {
+      "tag": "northern_marches.coldharrow",
+      "file": "bg/northern-marches-coldharrow.webp",
+      "prompt": "an empty northern timber-and-stone hall, furs on benches, black pine banners, a long fire pit"
+    },
+    {
+      "tag": "northern_marches.fen_edge",
+      "file": "bg/northern-marches-fen-edge.webp",
+      "prompt": "an empty vast shrinking fenland, cracked mud and reeds, stilted wooden huts, pools of dark water, pale winter sky"
+    },
+    {
+      "tag": "northern_marches.risen_town",
+      "file": "bg/northern-marches-risen-town.webp",
+      "prompt": "ancient ruined stone buildings rising from drying fen mud, worn carvings of sleeping figures on the walls, eerie stillness"
+    },
+    {
+      "tag": "mood.road",
+      "file": "bg/mood-road.webp",
+      "prompt": "an empty muddy road winding between grey hills under a heavy sky, a milestone"
+    },
+    {
+      "tag": "mood.forest_night",
+      "file": "bg/mood-forest-night.webp",
+      "prompt": "an empty dark pine forest at night, a small campfire glowing between the trunks"
+    },
+    {
+      "tag": "mood.inn_room",
+      "file": "bg/mood-inn-room.webp",
+      "prompt": "an empty small rented room with a narrow bed, a shuttered window and a candle"
+    },
+    {
+      "tag": "mood.bedchamber",
+      "file": "bg/mood-bedchamber.webp",
+      "prompt": "an empty rich bedchamber with a great curtained bed and a cold hearth, candles"
+    },
+    {
+      "tag": "mood.river",
+      "file": "bg/mood-river.webp",
+      "prompt": "a wide slow river through reed banks in morning mist, seen from the deck of a barge"
+    },
+    {
+      "tag": "mood.snow",
+      "file": "bg/mood-snow.webp",
+      "prompt": "a silent snowy northern landscape of pines and black rock, heavy snow falling"
+    },
+    {
+      "tag": "mood.rain_city",
+      "file": "bg/mood-rain-city.webp",
+      "prompt": "an empty lamplit city street at night in the rain, reflections on wet cobbles"
+    },
+    {
+      "tag": "mood.storm",
+      "file": "bg/mood-storm.webp",
+      "prompt": "a stone keep's battlements at night lashed by rain, lightning over the hills"
+    }
+  ],
+  "cgs": [
+    {
+      "tag": "event.feast",
+      "file": "cg/event-feast.webp",
+      "prompt": "a noble feast in a torchlit hall, long tables, a lord raising a cup, tension beneath the celebration"
+    },
+    {
+      "tag": "event.duel",
+      "file": "cg/event-duel.webp",
+      "prompt": "a formal duel before witnesses in a courtyard, two fighters with swords circling, a crowd behind a rope"
+    },
+    {
+      "tag": "event.council",
+      "file": "cg/event-council.webp",
+      "prompt": "nobles arguing around a round council table under a glass dome, one figure standing to speak"
+    },
+    {
+      "tag": "event.ambush",
+      "file": "cg/event-ambush.webp",
+      "prompt": "riders ambushed on a forest road, arrows in flight, a horse rearing"
+    },
+    {
+      "tag": "event.skirmish",
+      "file": "cg/event-skirmish.webp",
+      "prompt": "a brutal skirmish between soldiers in mud, shields locked, banners tangled, smoke"
+    },
+    {
+      "tag": "event.execution",
+      "file": "cg/event-execution.webp",
+      "prompt": "a public execution platform in a crowded market square, a headsman, a hushed crowd, grey sky"
+    },
+    {
+      "tag": "event.funeral",
+      "file": "cg/event-funeral.webp",
+      "prompt": "a funeral procession by lamplight, mourners in grey carrying lamps, a covered bier"
+    },
+    {
+      "tag": "event.secret_meeting",
+      "file": "cg/event-secret-meeting.webp",
+      "prompt": "two hooded figures in a candlelit back room, a sealed letter passing between them"
+    },
+    {
+      "tag": "event.escape",
+      "file": "cg/event-escape.webp",
+      "prompt": "a figure escaping over rooftops at night, city lamps below, pursuers with torches"
+    },
+    {
+      "tag": "event.poison",
+      "file": "cg/event-poison.webp",
+      "prompt": "a goblet of wine beside a small glass vial on a table, a hand hovering, candlelight"
+    },
+    {
+      "tag": "event.letter",
+      "file": "cg/event-letter.webp",
+      "prompt": "hands breaking a wax seal on a letter by candlelight at a writing desk"
+    },
+    {
+      "tag": "event.riot",
+      "file": "cg/event-riot.webp",
+      "prompt": "an angry crowd surging through a city street, overturned carts, guards with shields pushing back, torches"
+    },
+    {
+      "tag": "event.arrest",
+      "file": "cg/event-arrest.webp",
+      "prompt": "guards in black cloaks seizing a person in a lamplit street, onlookers backing away"
+    },
+    {
+      "tag": "event.fen_crossing",
+      "file": "cg/event-fen-crossing.webp",
+      "prompt": "a hooded guide leading travellers across a fen on hidden paths, reeds taller than a person, fog"
+    },
+    {
+      "tag": "event.dream",
+      "file": "cg/event-dream.webp",
+      "prompt": "a dreamlike vision of a drowned stone town under pale green water, sleeping carved figures, soft uncanny light"
+    },
+    {
+      "tag": "event.wounded",
+      "file": "cg/event-wounded.webp",
+      "prompt": "a wounded fighter slumped against a stone wall, blood on the stones, a companion pressing a cloth to the wound"
+    }
+  ],
+  "sprites": [
+    {
+      "character": "lord_harlan_vane",
+      "appearance": "a stubborn nobleman in his late fifties, grey close-cropped beard, weathered square face, guarded grey eyes, wearing a worn blue wool doublet with a silver weathervane brooch, leaning slightly on a plain wooden cane"
+    },
+    {
+      "character": "brother_tomas",
+      "appearance": "a lean seventeen-year-old nobleman, untidy dark brown hair, quick bright eyes, a few freckles, wearing a blue riding doublet with the collar open and a short sword at his hip"
+    },
+    {
+      "character": "regent_osric",
+      "appearance": "a soft-spoken man in his fifties, thinning dark hair combed flat, clean-shaven pale face, narrow watchful eyes, wearing a plain black chancellor's robe with a heavy chain of office shaped like ledger clasps"
+    },
+    {
+      "character": "queen_aveline",
+      "appearance": "a dignified woman in her mid forties, auburn hair going grey pinned beneath a thin silver circlet, pale composed face, wearing a high-necked gown of mourning grey"
+    },
+    {
+      "character": "master_quill",
+      "appearance": "an old stooped archivist in his seventies, wispy white hair, round spectacles, ink-stained fingers, wearing a faded brown scholar's robe with a pen case on his belt"
+    },
+    {
+      "character": "captain_dagna_rusk",
+      "appearance": "a broad-shouldered mercenary captain in her forties, cropped red-brown hair, a nose broken more than once, wearing patched mail under a tallow-yellow sash, notched sword on her shoulder"
+    },
+    {
+      "character": "jessa_coyle",
+      "appearance": "a neat woman banker in her thirties, black hair in a tight braid, sharp dark eyes, wearing a sea-blue coat with a small gold ship pin and a ledger under her arm"
+    },
+    {
+      "character": "commander_ysolde_brand",
+      "appearance": "a scarred woman commander in her late forties, short iron-grey hair, a pale scar across one cheek, wearing a black cloak over a steel breastplate with a lantern badge"
+    }
+  ]
+}

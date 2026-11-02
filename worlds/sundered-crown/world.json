@@ -1,0 +1,7 @@
+{
+  "id": "sundered-crown",
+  "version": "0.4.0",
+  "title": "The Sundered Crown",
+  "genre": "political dark fantasy",
+  "timed_flags": [{ "flag": "chapter3_council_convened", "day": 40 }]
+}
